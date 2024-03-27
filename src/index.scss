@@ -1,0 +1,38 @@
+$basic-font-color: #ffffff;
+$basic-bg-color: rgb(176, 147, 211);
+$basic-linear-bg-color: linear-gradient(
+  180deg,
+  rgba(133, 71, 209, 0.953) 2%,
+  rgba(38, 7, 77, 0.896796218487395) 47%,
+  rgba(20, 9, 83, 0.896796218487395) 100%
+);
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background: $basic-bg-color;
+  background: $basic-linear-bg-color;
+  min-height: 100vh;
+  color: $basic-font-color;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.glass-effect {
+  background: rgba(209, 193, 193, 0.13);
+  border-radius: 16px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  border: 1px solid rgba(209, 193, 193, 0.35);
+}

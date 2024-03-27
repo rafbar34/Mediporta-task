@@ -1,0 +1,28 @@
+.container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  
+  .box {
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    margin: 1rem;
+  }
+
+  .table {
+    background: white;
+    border-radius: 8px;
+    border: 2px solid black;
+    min-height: 30rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+  }
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,11 @@
+.data-controls-container {
+  display: flex;
+  width: 50%;
+  min-width: 17rem;
+  gap: 2rem;
+  flex-direction: column;
+  @media (min-width: 650px) {
+    flex-direction: row;
+    min-width: 20rem;
+  }
+}
